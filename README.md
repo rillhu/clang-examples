@@ -1,7 +1,7 @@
 # c_examples
 some usefull examples for c deep learning
 
-## va_arg_test_01： 关于c语言中，可变参数长度函数的一个简单用例。
+## c_va_arg_test_01： 关于c语言中，可变参数长度函数的一个简单用例。
 
 ### 参考了下面链接中的例子，修正了其中的错误，在C-FREE5.0上便宜运行通过。
 
@@ -36,3 +36,13 @@ http://www.cppblog.com/qiujian5628/archive/2008/01/21/41562.html
 2. 虽然可以根据上面两个办法解决读取参数个数的问题,但是如果参数类型都是不定的,该怎么办,如果不知道参数的类型,即使读到了参数也没有办法进行处理.
 解决办法:可以自定义一些可能出现的参数类型,这样在可变参数列表中,可以可变参数列表中的那类型,然后根据类型,读取可变参数值,并进行准确地转换.
 传递参数的时候可以这样传递:参数数目,可变参数类型1,可变参数值1,可变参数类型2,可变参数值2,....
+
+## c_cJSON_01
+
+cJSON的使用，例子中做了生成JSON字符串和解析JSON字符串代码。参考了下面链接中cJSON例子：
+
+https://github.com/hxy513696765/ESP8266-Weather-Station
+
+以及：
+http://blog.csdn.net/xukai871105/article/details/17094113
+http://blog.csdn.net/xukai871105/article/details/33013455
