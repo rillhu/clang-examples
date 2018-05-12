@@ -64,4 +64,47 @@ http://blog.csdn.net/xukai871105/article/details/17094113和
 http://blog.csdn.net/xukai871105/article/details/33013455
 
 
-测试
+## socket_gethostbyname
+
+Socket 编程用例之一，展示如何使用gethostbyname. MAC/ubuntu系统下编译测试通过。
+
+`bogon:socket_gethostbyname hongfeihu$ make clean`
+
+rm -rf main main.o
+
+`bogon:socket_gethostbyname hongfeihu$ make`
+
+gcc -Wall -std=gnu99   -c -o main.o main.c
+
+gcc -o main main.o
+
+`bogon:socket_gethostbyname hongfeihu$ ./main www.baidu.com`
+
+official hostname:www.a.shifen.com
+
+ alias:www.baidu.com
+ 
+ address:61.135.169.121
+ 
+ address:61.135.169.125
+ 
+ h_length:4
+
+##socket_getaddrinfo
+Socket 编程用例之一，getaddrinfo. MAC/ubuntu系统下编译测试通过。
+
+    getaddrinfo$ make
+
+gcc -Wall -std=gnu99   -c -o main.o main.c
+
+gcc -o main main.o
+
+hongfei@hongfei-xps:/mnt/c/Users/hongf/Documents/03_Git_local/C-Examples-master/
+
+    socket_getaddrinfo$ ./main www.sina.xom
+
+getaddrinfo: Name or service not known
+
+    getaddrinfo$ ./main www.sina.com
+
+IP: 218.30.66.248
