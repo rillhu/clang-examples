@@ -1,7 +1,3 @@
-//
-// Created by Hongfei Hu on 2018/7/6.
-//
-
 #ifndef GRAPH_GRAPH_STRUCT_H
 #define GRAPH_GRAPH_STRUCT_H
 
