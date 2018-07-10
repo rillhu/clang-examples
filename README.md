@@ -83,11 +83,11 @@ gcc -o main main.o
 official hostname:www.a.shifen.com
 
  alias:www.baidu.com
- 
+
  address:61.135.169.121
- 
+
  address:61.135.169.125
- 
+
  h_length:4
 
 ##socket_getaddrinfo
@@ -108,3 +108,9 @@ getaddrinfo: Name or service not known
     getaddrinfo$ ./main www.sina.com
 
 IP: 218.30.66.248
+
+
+
+## 数据结构的两个例子
+
+graph和biTree
